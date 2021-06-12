@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(3, 185, 185);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  background-color: white;
+  box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 30px 20px;
+  max-width: 450px;
+  margin: 30px auto;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-control label {
+  display: block;
+  margin: 0 0 5px 0;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid rgb(99, 98, 98);
+  border-radius: 5px;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  width: auto;
+  display: inline-block;
+}
+
+button {
+  background-color: rgb(3, 185, 185);
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: block;
+  padding: 12px;
+  width: 100%;
+}

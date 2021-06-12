@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px 0 0 0;
+  background-color: lightgray;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-top: 100px;
+  font-size: 2rem;
+}
+
+.pri {
+  margin-top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(1, 13, 34);
+  padding 0;
+  max-width: 100%;
+}
+
+
+#header-img {
+}
+
+#nav-bar a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 15px 0 0 0;
+}
+
+.home {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.video,
+#home,
+#join,
+#pricing,
+#form {
+  text-align: center;
+}
+
+.video-wrapper {
+  max-width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 20px;
+}
+
+#submit {
+  background-color: rgb(1, 13, 34);
+  color: white;
+  border-radius: 9999px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: rgb(1, 13, 34);
+  color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+
+}
+
+.price {
+  width: 30%;
+  margin: 0 1.66%;
+  padding: 0;
+  text-align: center;
+}
+
+.price h2 {
+  margin-bottom: 5px;
+}
+
+.price p {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+strong {
+  text-align: center;
+}
+
+footer {
+  max-width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  
+  nav {
+    flex-direction: column;
+   }
+  
+  body {
+    margin-top: 280px;
+  }
+}
